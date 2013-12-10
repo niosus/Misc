@@ -18,7 +18,7 @@ Starting the robot
 Processing the dataset
 ----
 
-- copy the log to your machine to folder "logs"
+- copy the log to your machine to folder `logs`
 - start virtual machine to run europa-related stuff
 - unzip the log file: `gunzip *.alog.gz`
 - create `img` directory in the recent log folder
