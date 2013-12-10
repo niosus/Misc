@@ -21,8 +21,8 @@ Processing the dataset
 - copy the log to your machine to folder "logs"
 - start virtual machine to run europa-related stuff
 - unzip the log file: `gunzip *.alog.gz`
-- create "img" directory in the recent log folder
-- cd into img directory
+- create `img` directory in the recent log folder
+- cd into `img` directory
 - run:
 `~/workspace/europa/bin/extractBumblebee -F jpg -t timestamps.txt -r ../*.alog`
 - this command writes rectified images to the current folder
