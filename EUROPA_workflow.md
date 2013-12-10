@@ -24,7 +24,7 @@ Processing the dataset
 - create `img` directory in the recent log folder
 - cd into `img` directory
 - write rectified images and their timestamps:
-`~/workspace/europa/bin/extractBumblebee -F jpg -t timestamps.txt -r ../*.alog`
+  `extractBumblebee -F jpg -t timestamps.txt -r ../*.alog`
 - prepare the alog file by transfering it from moos format to carmen format:
 `moos2carmen *.alog`
 - run the mapper on the carmen log:
