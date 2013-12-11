@@ -22,7 +22,7 @@ Processing the dataset
 - start virtual machine to run europa-related stuff
 - unzip the log file: `gunzip *.alog.gz`
 - create `img` directory in the recent log folder
-- cd into `img` directory
+- `cd` into `img` directory
 - write rectified images and their timestamps:
   `extractBumblebee -F jpg -t timestamps.txt -r ../*.alog`
 - prepare the alog file by transfering it from moos format to carmen format:
