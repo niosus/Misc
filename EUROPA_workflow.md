@@ -26,14 +26,13 @@ Processing the dataset
 - before extracting the images be sure to have corresponding calibration files in the folder:
  `/home/europa/workspace/europa/config/cameraCalibration`
 
-these files should look like 
-```
-bumblebee-<cam_id>.cal
-bumblebee_<cam_id>_distort_1024x768.txt
-bumblebee_<cam_id>_undistort_1024x768.txt
-```
-
-where `<cam_id>` is the id of the camera
+  these files should look like 
+  ```
+  bumblebee-<cam_id>.cal
+  bumblebee_<cam_id>_distort_1024x768.txt
+  bumblebee_<cam_id>_undistort_1024x768.txt
+  ```
+  where `<cam_id>` is the id of the camera
 
 - write rectified images and their timestamps:
   `extractBumblebee -F jpg -t timestamps.txt -r ../*.alog`
