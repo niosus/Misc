@@ -44,5 +44,6 @@ Processing the dataset
   `sed -i 's/ROBOTLASER2/ROBOTLASER1/' robotlaser.log`
 - run the mapper on the carmen log (or the newly created `robotlaser.log`):
 `test_mapper -g -ini ~/workspace/europa/mapper/mapper/mapper.ini *-carmen.log`
+`test_mapper -g -ini ~/workspace/europa/mapper/mapper/mapper.ini robotlaser.log`
 - after we have got result we want to make it consistent with gps by using this command:
 `globallyConsistentGm2dl -i 20 -o result-gps.gm2dl result.gm2dl *-carmen.log`
