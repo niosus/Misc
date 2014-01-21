@@ -39,7 +39,7 @@ Processing the dataset
 - prepare the alog file by transfering it from moos format to carmen format:
 `moos2carmen *.alog`
 - if needed extract everything with `ROBOTLASER2` from carmen file:
-  `grep ^ROBOTLASER2 *-carmen.log > robotlaser.log"`
+  `grep ^ROBOTLASER2 *-carmen.log > "robotlaser.log"`
   then replace `ROBOTLASER2` with `ROBOTLASER1` in this file via:
   `sed -i 's/ROBOTLASER2/ROBOTLASER1/' robotlaser.log`
 - run the mapper on the carmen log (or the newly created `robotlaser.log`):
