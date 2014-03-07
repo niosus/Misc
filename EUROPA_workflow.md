@@ -47,3 +47,5 @@ Processing the dataset
 `test_mapper -g -ini ~/workspace/europa/mapper/mapper/mapper.ini robotlaser.log`
 - after we have got result we want to make it consistent with gps by using this command:
 `globallyConsistentGm2dl -i 20 -o result-gps.gm2dl result.gm2dl *-carmen.log`
+- sometimes it is also useful to see the image of the map. This is done by:
+`log2gfx -maxrange 21 -maxusablerange 20 result-gps.gm2dl result-gps.png`
